@@ -6,12 +6,12 @@
     "EC2Instance": {
       "Type": "AWS::EC2::Instance",
       "Properties": {
-        "AvailabilityZone": "us-east-2a",
-        "ImageId": "ami-0d9a6b6c74aafb9d7",
+        "AvailabilityZone": "us-east-1b",
+        "ImageId": "ami-03368e982f317ae48",
         "InstanceType": "t2.micro",
-        "KeyName": "mycloudtiernewkey",
-        "SecurityGroupIds": [ "sg-0415083461c94c056" ],
-        "SubnetId": "subnet-0cd51fa2ac609a2f0"
+        "KeyName": "mygitkey",
+        "SecurityGroupIds": [ "sg-008a7fa52d04a4738" ],
+        "SubnetId": "subnet-04cce76dc793ce800"
       }
     }
   },
