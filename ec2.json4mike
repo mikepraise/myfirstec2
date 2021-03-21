@@ -6,12 +6,12 @@
       "EC2Instance": {
         "Type": "AWS::EC2::Instance",
         "Properties": {
-          "AvailabilityZone": "us-east-2a",
-          "ImageId": "ami-01aab85a5e4a5a0fe",
+          "AvailabilityZone": "us-east-1c",
+          "ImageId": "ami-0533f2ba8a1995cf9",
           "InstanceType": "t2.micro",
-          "KeyName": "mylinuskeypair",
-          "SecurityGroupIds": [ "sg-04ff862fa3da11a45" ],
-          "SubnetId": "subnet-089a3db39aabb8f56"
+          "KeyName": "mycloudkey2",
+          "SecurityGroupIds": [ "sg-0abce5f7b9e3459b5" ],
+          "SubnetId": "subnet-035016d1988d2ecc4"
         }
       }
     },
